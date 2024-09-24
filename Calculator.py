@@ -1,15 +1,16 @@
-number1 = input('Enter the num ')
+number1 = input("Enter the num ")
 num1 = int(number1)
-sign = input('Enter the sign ')
-number2 = input('Enter the number')
+sign = input("Enter the sign ")
+number2 = input("Enter the number ")
 num2 = int(number2)
+
 if sign == '+':
-  print('Your result is ' + str(num1 + num2))
+    print("Your result is " + str(num1 + num2))
 elif sign == '-':
-  print('Your result is ' + str(num1 - num2))
+    print("Your result is " + str(num1 - num2))
 elif sign == '*':
-  print('Your result is ' + str(num1 * num2))
+    print("Your result is " + str(num1 * num2))
 elif sign == '/':
-  print('Your result is ' + str(num1 / num2))
+    print("Your result is " + str(num1 / num2))
 else:
-  print('please enter +,-, * or /')
+    print("Please enter +, -, *, or /")
